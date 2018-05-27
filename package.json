@@ -1,0 +1,19 @@
+{
+  "name": "personalwebsite",
+  "version": "1.0.0",
+  "description": "Portfolio Website for Micah Tobon",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Micah-Tobon/personalwebsite.git"
+  },
+  "author": "Micah Tobon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Micah-Tobon/personalwebsite/issues"
+  },
+  "homepage": "https://github.com/Micah-Tobon/personalwebsite#readme"
+}

@@ -7,7 +7,7 @@ var router = require("./app/routes.js");
 app.use("/", router);
 
 //static files
-app.use(express.static(_dirname + "/public"));
+app.use(express.static(__dirname + "/public"));
 
 //start server
 app.listen(port, function() {

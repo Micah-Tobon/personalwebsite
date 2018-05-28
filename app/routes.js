@@ -4,10 +4,10 @@ var router = express.Router();
 
 //routes
 router.get("/", function(req,res) {
-  res.sendFile(path.join(_dirname, "../index.html"))
+  res.sendFile(path.join(__dirname, "../index.html"))
 });
 router.get("/about", function(req,res) {
-  res.sendFile(path.join(_dirname, "../about.html"))
+  res.sendFile(path.join(__dirname, "../about.html"))
 });
 
 //export

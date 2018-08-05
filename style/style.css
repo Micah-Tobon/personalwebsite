@@ -1,6 +1,7 @@
 body, html {
   height: 100%;
   max-width: 100%;
+  min-width: 576px;
   margin: 0;
   font-size: 16px;
   font-family: "Lato", sans-serif;
@@ -74,8 +75,6 @@ a {
 }
 
 .label .border {
-  overflow-x: hidden
-
   background-color: rgba(0,0,0,0.8);
   color: #ddd;
   padding: 20px;

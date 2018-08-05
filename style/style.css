@@ -83,13 +83,6 @@ a {
   .label {
     font-size: 18px;
   }
-
-  .bg1 {
-    min-height: 500%;
-  }
-  .bg2 {
-    min-height: 20%;
-  }
 }
 
 /* Medium devices (tablets, 768px and up) */

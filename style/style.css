@@ -106,10 +106,10 @@ a {
  .bg1 {
    zoom: 40%;
  }
-  body, html {
+  /* body, html {
     max-width: 600px;
     width: 100%;
-  }
+  } */
 }
 
 /* Large devices (desktops, 992px and up) */

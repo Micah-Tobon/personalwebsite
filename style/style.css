@@ -22,9 +22,7 @@ a {
 
 .bg1 {
   background-image: url('../images/image5.jpg');
-  background-position: -160px -200px;
-  background-size: 110%;
-  min-height: 50%;
+  min-height: 100%;
 }
 
 .bg2 {
@@ -55,7 +53,7 @@ a {
   width: 100%;
   text-align: center;
   color: #000;
-  font-size: 40px;
+  font-size: 18px;
   letter-spacing: 8px;
   text-transform: uppercase;
 }
@@ -67,7 +65,7 @@ a {
 
 }
 .label.second {
-  top: -10%;
+  top: 80%;
   transform: translateZ(-1px) scale(1);
   z_index: -1;
 
@@ -80,10 +78,34 @@ a {
   border-radius: 20%;
 }
 
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .label {
+    font-size: 18px;
+  }
+}
 
-
-@media(max-width: 768px) {
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
   .bg1, .bg2, .bg3, .bg4 {
     background-attachment: scroll;
+  }
+
+  .label {
+    font-size: 22px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .label {
+    font-size: 24px;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .label {
+    font-size: 28px;
   }
 }

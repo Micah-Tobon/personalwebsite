@@ -83,6 +83,10 @@ a {
   .label {
     font-size: 18px;
   }
+  .bg1 {
+    min-height: 100%;
+  }
+
 }
 
 /* Medium devices (tablets, 768px and up) */

@@ -5,7 +5,7 @@ div {
 body, html {
   height: 100%;
   max-width: 100%;
-  min-width: 1500px; 
+  min-width: 768px;
   margin: 0;
   font-size: 16px;
   font-family: "Lato", sans-serif;
@@ -102,6 +102,10 @@ a {
 @media (max-width: 768px) {
   .bg1, .bg2, .bg3, .bg4 {
     background-attachment: scroll;
+  }
+
+  body, html {
+    max-width: 768px;
   }
 }
 

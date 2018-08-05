@@ -104,7 +104,7 @@ a {
     background-attachment: scroll;
   }
  .bg1 {
-   min-height: 70%
+   zoom: 70%;
  }
   body, html {
     max-width: 600px;

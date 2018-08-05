@@ -1,5 +1,4 @@
 body, html {
-  overflow-x: hidden
   height: 100%;
   max-width: 100%;
   margin: 0;
@@ -15,7 +14,7 @@ a {
 }
 
 .bg1, .bg2, .bg3, .bg4 {
-  
+  overflow-x: hidden
   position: relative;
   background-position: center;
   background-size: cover;

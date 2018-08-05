@@ -85,7 +85,10 @@ a {
   }
 
   .bg1 {
-    min-height: 40%;
+    min-height: 500%;
+  }
+  .bg2 {
+    min-height: 20%;
   }
 }
 

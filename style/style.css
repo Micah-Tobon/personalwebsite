@@ -83,20 +83,22 @@ a {
   .label {
     font-size: 18px;
   }
+
   .bg1 {
     min-height: 40%;
   }
-
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-  .bg1, .bg2, .bg3, .bg4 {
-    background-attachment: scroll;
-  }
-
   .label {
     font-size: 22px;
+  }
+}
+
+@media (max-width: 768px) {
+  .bg1, .bg2, .bg3, .bg4 {
+    background-attachment: scroll;
   }
 }
 

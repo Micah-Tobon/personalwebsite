@@ -103,7 +103,9 @@ a {
   .bg1, .bg2, .bg3, .bg4 {
     background-attachment: scroll;
   }
-
+ .bg1 {
+   min-height: 70%
+ }
   body, html {
     max-width: 600px;
     width: 100%;

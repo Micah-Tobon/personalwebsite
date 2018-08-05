@@ -1,3 +1,6 @@
+div {
+  box-sizing: border-box;
+  }
 body, html {
   height: 100%;
   max-width: 100%;
@@ -113,4 +116,13 @@ a {
   .label {
     font-size: 28px;
   }
+}
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+/*and (orientation : landscape)*/ {
+html,
+body {
+width:1000px;
+}
 }

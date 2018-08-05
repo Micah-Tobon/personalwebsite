@@ -95,7 +95,7 @@ a {
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .label {
-    font-size: 22px;
+    font-size: 18px;
   }
 }
 
@@ -106,10 +106,10 @@ a {
  .bg1 {
    zoom: 40%;
  }
-  /* body, html {
+  body, html {
     max-width: 600px;
     width: 100%;
-  } */
+  }
 }
 
 /* Large devices (desktops, 992px and up) */

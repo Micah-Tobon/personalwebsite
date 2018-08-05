@@ -14,7 +14,6 @@ a {
 }
 
 .bg1, .bg2, .bg3, .bg4 {
-  overflow-x: hidden
   position: relative;
   background-position: center;
   background-size: cover;
@@ -75,6 +74,8 @@ a {
 }
 
 .label .border {
+  overflow-x: hidden
+
   background-color: rgba(0,0,0,0.8);
   color: #ddd;
   padding: 20px;

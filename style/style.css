@@ -11,6 +11,7 @@ body, html {
   font-family: "Lato", sans-serif;
   font-weight: 400;
   line-height: 1.8em;
+  background-color: black;
   color: black;
 }
 
@@ -88,14 +89,14 @@ a {
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
   .label {
-    font-size: 18px;
+    font-size: 13px;
   }
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .label {
-    font-size: 18px;
+    font-size: 22px;
   }
 }
 
